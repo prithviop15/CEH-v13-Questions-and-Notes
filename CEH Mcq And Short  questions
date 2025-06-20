@@ -1,0 +1,1112 @@
+CEH Questions 
+Here are Certified Ethical Hacker (CEH) questions with answers and brief explanations. These strike a balance between foundational knowledge and practical cybersecurity applications—great for interview or exam prep.
+
+🔐 CEH Medium-Level Questions (1-50)
+
+1. What is the purpose of Nmap's -A option?
+Answer: Enables OS detection, version detection, script scanning, and traceroute
+Explanation: -A provides a comprehensive scan including fingerprinting and more.
+
+2. What does DNSSEC add to DNS?
+Answer: Integrity and authentication of DNS responses
+Explanation: DNSSEC protects against DNS spoofing attacks.
+
+3. What is the role of the SAM file in Windows?
+Answer: Stores user password hashes
+Explanation: Security Account Manager file keeps encrypted user credentials.
+
+4. What does chmod 777 do to a file?
+Answer: Gives read/write/execute permissions to everyone
+Explanation: Full access is granted to owner, group, and others.
+
+5. What is the difference between black-box and white-box testing?
+Answer: Black-box = no prior knowledge; White-box = full access to internal structure
+Explanation: Used to simulate different attacker scenarios.
+
+6. What is an SQL Injection attack?
+Answer: Injecting SQL queries via input fields to manipulate databases
+Explanation: Exploits poor input validation to access or modify data.
+
+7. What is session hijacking?
+Answer: Taking control of an active session between a client and server
+Explanation: Attacker impersonates a valid user.
+
+8. What does a MAC address uniquely identify?
+Answer: Network interface card (NIC)
+Explanation: Used at Layer 2 of the OSI model.
+
+9. What is an MITM (Man-in-the-Middle) attack?
+Answer: Intercepts and alters communication between two parties
+Explanation: Attacker secretly relays messages.
+
+10. What is the main purpose of a reverse proxy?
+Answer: Routes requests to back-end servers and hides their identity
+Explanation: Adds load balancing, security, and anonymity.
+
+11. What is the standard port for FTP?
+Answer: 21
+Explanation: Port 21 is used for FTP control commands.
+
+12. Which layer of the OSI model handles encryption and compression?
+Answer: Presentation layer
+Explanation: Responsible for data formatting and transformation.
+
+13. What is a SYN scan used for?
+Answer: Checking if ports are open using SYN packets
+Explanation: Stealthier than full TCP connect scan.
+
+14. What does the whois command retrieve?
+Answer: Domain registration and ownership details
+Explanation: Useful in passive reconnaissance.
+
+15. What is enumeration in ethical hacking?
+Answer: Extracting detailed information about a system or network
+Explanation: Includes user names, shares, services, etc.
+
+16. What is footprinting?
+Answer: Collecting information about a target network or system
+Explanation: Early stage of penetration testing.
+
+17. What is the default port used by Telnet?
+Answer: 23
+Explanation: Telnet is an unencrypted remote login protocol.
+
+18. What is a buffer overflow?
+Answer: Writing more data to a buffer than it can hold
+Explanation: Can be exploited to execute arbitrary code.
+
+19. What does NetBIOS do?
+Answer: Allows applications to communicate over a local network
+Explanation: Often used in older Windows networking.
+
+20. What is a pivot point in network penetration testing?
+Answer: Compromised machine used to reach other systems
+Explanation: Essential for lateral movement.
+
+21. What is reconnaissance in hacking?
+Answer: Gathering information before launching an attack
+Explanation: Passive and active techniques are used.
+
+22. What type of malware pretends to be legitimate software?
+Answer: Trojan horse
+Explanation: Appears safe but performs malicious actions.
+
+23. What is the primary goal of DoS attacks?
+Answer: Deny access to a system or network resource
+Explanation: Makes services unavailable.
+
+24. What is a digital certificate used for?
+Answer: Verifying the identity of websites or users
+Explanation: Issued by Certificate Authorities.
+
+25. What is XSS (Cross-Site Scripting)?
+Answer: Injection of malicious scripts into web applications
+Explanation: Can steal cookies or redirect users.
+
+26. What is a command-and-control (C2) server?
+Answer: Used by attackers to control compromised systems
+Explanation: Common in botnet architecture.
+
+27. What is a sniffing attack?
+Answer: Capturing network packets to extract information
+Explanation: Often done using tools like Wireshark.
+
+28. What are netcat's typical use cases?
+Answer: Reverse shells, banner grabbing, port scanning
+Explanation: A versatile networking tool.
+
+29. What is a keylogger?
+Answer: Records keystrokes to steal information
+Explanation: Often used to capture passwords.
+
+30. What does SSL ensure?
+Answer: Encrypted communication over HTTP
+Explanation: HTTPS = HTTP + SSL/TLS.
+
+31. What is a hash collision?
+Answer: Two inputs producing the same hash
+Explanation: Breaks the uniqueness property of hash functions.
+
+32. What is steganography?
+Answer: Hiding data within other files
+Explanation: E.g., embedding text inside images.
+
+33. What is OSINT?
+Answer: Open Source Intelligence
+Explanation: Gathering information from publicly available sources.
+
+34. What is shodan.io?
+Answer: A search engine for internet-connected devices
+Explanation: Used for IoT and device discovery.
+
+35. What is rainbow table?
+Answer: Precomputed hash values for cracking passwords
+Explanation: Faster than brute-force attacks.
+
+36. What is EDR?
+Answer: Endpoint Detection and Response
+Explanation: Monitors and responds to endpoint-level threats.
+
+37. What is the purpose of a honeypot?
+Answer: Attract and analyze attacker behavior
+Explanation: Isolated and monitored system.
+
+38. What is LDAP used for?
+Answer: Accessing and managing directory information
+Explanation: Often used in authentication systems.
+
+39. What is a replay attack?
+Answer: Reusing captured valid data packets to impersonate users
+Explanation: Exploits protocol weaknesses.
+
+40. What is a kill chain in cybersecurity?
+Answer: Sequence of steps an attacker follows
+Explanation: Includes reconnaissance to exfiltration.
+
+41. What does tcpdump do?
+Answer: Captures packets on a network interface
+Explanation: CLI alternative to Wireshark.
+
+42. What is defense-in-depth?
+Answer: Multiple layers of security controls
+Explanation: Redundancy increases resilience.
+
+43. What is the purpose of hashing passwords?
+Answer: Ensures password integrity and security
+Explanation: Stored hashes can’t be easily reversed.
+
+44. What is social engineering?
+Answer: Manipulating people to gain access or information
+Explanation: Common non-technical attack.
+
+45. What is whitelisting?
+Answer: Only allowing predefined programs or IPs
+Explanation: Blocks all others by default.
+
+46. What is spear phishing?
+Answer: Targeted phishing against specific individuals
+Explanation: More personalized and convincing.
+
+47. What does the dig command do?
+Answer: Performs DNS queries
+Explanation: Used for troubleshooting DNS records.
+
+48. What is a security policy?
+Answer: Defines acceptable use and behavior within an organization
+Explanation: Helps enforce compliance and reduce risks.
+
+49. What is the difference between hot and cold site?
+Answer: Hot site = ready to go; Cold site = minimal setup
+Explanation: Used in disaster recovery planning.
+
+50. What is the function of a proxy server?
+Answer: Acts as an intermediary between client and server
+Explanation: Provides filtering, caching, and anonymity.
+
+
+
+🔐 CEH Advanced Questions (51–110)
+51. What is the use of the iptables tool in Linux?
+Answer: Configuring firewall rules
+Explanation: iptables manages incoming and outgoing traffic based on specified rules.
+
+52. What is a race condition vulnerability?
+Answer: Occurs when processes access shared resources concurrently in an unsafe way
+Explanation: Can lead to privilege escalation or inconsistent data handling.
+
+53. Which protocol is used in DNS amplification attacks?
+Answer: UDP
+Explanation: DNS uses UDP, making it suitable for amplification due to its connectionless nature.
+
+54. What is directory traversal?
+Answer: Exploiting file path input to access restricted directories
+Explanation: Allows attackers to access files outside the intended directory.
+
+55. What is a TCP reset (RST) attack?
+Answer: Forcefully closing a connection between two parties
+Explanation: By injecting RST packets, the attacker interrupts communication.
+
+56. What is the goal of OS fingerprinting?
+Answer: Determine the operating system of a host
+Explanation: Helps tailor attacks based on OS-specific vulnerabilities.
+
+57. What does CVE stand for?
+Answer: Common Vulnerabilities and Exposures
+Explanation: CVEs are identifiers for publicly known cybersecurity vulnerabilities.
+
+58. What is the use of netstat?
+Answer: Displays active network connections and ports
+Explanation: Useful for checking open ports and listening services.
+
+59. Which protocol does SNMP use?
+Answer: UDP
+Explanation: SNMP (Simple Network Management Protocol) uses UDP ports 161 and 162.
+
+60. What is fuzz testing mainly used for?
+Answer: Discovering software bugs or vulnerabilities
+Explanation: Random or malformed input is injected into a program to find unexpected behavior.
+
+61. What are polymorphic viruses?
+Answer: Viruses that change their code to evade detection
+Explanation: They modify themselves while retaining the same functionality.
+
+62. What is the purpose of the traceroute command?
+Answer: Trace the path packets take to a destination
+Explanation: Useful for identifying network routing issues or points of failure.
+
+63. What is a logic bomb?
+Answer: Malicious code triggered by specific conditions
+Explanation: Can remain dormant until a condition (like a date or action) is met.
+
+64. What does the chmod command control in Linux?
+Answer: File permissions
+Explanation: It sets who can read, write, or execute files and directories.
+
+65. What is the function of a security token in Windows authentication?
+Answer: Represents a user's identity and privileges
+Explanation: Used to determine access rights within a system.
+
+66. What is the purpose of STP (Spanning Tree Protocol)?
+Answer: Prevent switching loops in a network
+Explanation: STP avoids broadcast storms and ensures a loop-free topology.
+
+67. What does whoami command return in Windows/Linux?
+Answer: Currently logged-in user
+Explanation: Displays the username of the session executing the command.
+
+68. What is a Tarpit in network security?
+Answer: Intentionally slows down connections from attackers
+Explanation: Designed to waste attacker's resources.
+
+69. What is cross-site scripting (XSS)?
+Answer: Injection of malicious scripts into web pages
+Explanation: Used to hijack sessions, steal data, or deface websites.
+
+70. What is fileless malware?
+Answer: Malware that runs in memory without writing to disk
+Explanation: Difficult to detect with traditional antivirus.
+
+71. What is the function of tcpdump?
+Answer: Capture and analyze network packets
+Explanation: CLI packet analyzer used for troubleshooting and forensic analysis.
+
+72. What is a security sandbox?
+Answer: Isolated environment to test or run untrusted programs
+Explanation: Prevents the program from affecting the host system.
+
+73. What does LDAP stand for?
+Answer: Lightweight Directory Access Protocol
+Explanation: Used to access and manage directory information services.
+
+74. What is a keylogger?
+Answer: Malware that records keystrokes
+Explanation: Often used to steal passwords and sensitive information.
+
+75. What is a rogue access point?
+Answer: Unauthorized wireless access point
+Explanation: Often used in Wi-Fi spoofing attacks.
+
+76. What is a null byte injection?
+Answer: Exploiting the null character (%00) to terminate strings early
+Explanation: Can manipulate file handling or bypass filters.
+
+77. What is the main advantage of asymmetric encryption?
+Answer: Secure key exchange over insecure channels
+Explanation:Uses public-private key pairs for secure communication.
+
+78. What is DNS poisoning?
+Answer: Corrupting a DNS cache to redirect traffic
+Explanation: Attacker can lead users to malicious sites.
+
+79. What is the difference between vulnerability and exploit?
+Answer: Vulnerability is a weakness; exploit is the code used to take advantage of it
+Explanation: Exploit turns a vulnerability into an actual attack.
+
+80. What is the use of hashing in digital forensics?
+Answer: Verifies file integrity
+Explanation: Ensures that files have not been tampered with.
+
+81. What is a WPA3 improvement over WPA2?
+Answer: Simultaneous Authentication of Equals (SAE)
+Explanation: Prevents offline dictionary attacks.
+
+82. What is whaling in cybersecurity?
+Answer: Phishing attack targeting high-profile executives
+Explanation: More targeted and sophisticated than regular phishing.
+
+83. What is the function of a SIEM system?
+Answer: Security Information and Event Management
+Explanation: Aggregates and analyzes logs for real-time threat detection.
+
+84. What is an evil twin attack?
+Answer: Fake Wi-Fi hotspot mimicking a legitimate one
+Explanation: Used to intercept data or credentials.
+
+85. What is SMiShing?
+Answer: SMS phishing
+Explanation: Attackers use text messages to trick victims into clicking malicious links.
+
+86. What is the use of checksum in networking?
+Answer: Verifies data integrity
+Explanation: Ensures that data hasn't been corrupted in transit.
+
+87. What does BYOD stand for?
+Answer: Bring Your Own Device
+Explanation: Employees use personal devices at work; introduces security challenges.
+
+88. What is a rainbow table attack?
+Answer: Precomputed hash list used for cracking passwords
+Explanation: Fast and efficient against unsalted hashes.
+
+89. What is a SOC?
+Answer: Security Operations Center
+Explanation: Team responsible for monitoring and responding to security incidents.
+
+90. What is a SYN flood?
+Answer: Denial of service attack using incomplete TCP handshakes
+Explanation: Overwhelms the server with half-open connections.
+
+91. What is a digital signature used for?
+Answer: Authenticate origin and ensure integrity of messages
+Explanation: Uses hashing and private key encryption.
+
+92. What is cross-site request forgery (CSRF)?
+Answer: Tricks user into performing unintended actions
+Explanation: Exploits session management in web apps.
+
+93. What is a decoy system to distract attackers called?
+Answer: Honeypot
+Explanation: Used to detect, deflect, or study attack behavior.
+
+94. What is full-disk encryption?
+Answer: Encrypts all data on a storage device
+Explanation: Protects data at rest, even if device is stolen.
+
+95. What is a spear phishing attack?
+Answer: Targeted phishing directed at a specific individual or group
+Explanation: Usually well-researched and harder to detect.
+
+96. What is the use of ps command in Linux?
+Answer: Displays running processes
+Explanation: Useful for checking active tasks and resource usage.
+
+97. What is an IDS?
+Answer: Intrusion Detection System
+Explanation: Monitors traffic for malicious activity.
+
+98. What is the difference between IDS and IPS?
+Answer: IDS only detects; IPS can also prevent attacks
+Explanation: IDS is passive, IPS is active in blocking.
+
+99. What is the primary function of a WAF?
+Answer: Protects web applications from attacks like SQLi/XSS
+Explanation: Analyzes and filters HTTP traffic.
+
+100. What is the main risk of public Wi-Fi?
+Answer: Interception of data by attackers
+Explanation: Often unsecured, allowing eavesdropping or MITM attacks.
+
+101. Which tool is best suited for brute-force attacks on RDP?
+Answer: Hydra
+Explanation: Hydra can brute-force many protocols, including RDP.
+
+102. What is a DLL injection?
+Answer: Injecting malicious DLLs into running processes
+Explanation: Used to execute code within the address space of another process.
+
+103. What is a pivot in post-exploitation?
+Answer: Using one compromised host to reach others
+Explanation: Pivoting allows attackers to move laterally inside the network.
+
+104. What is a waterhole attack?
+Answer: Targeting a site often visited by the victim
+Explanation: Attacker compromises a trusted site to infect specific users.
+
+105. What is privilege escalation?
+Answer: Gaining higher-level access than initially provided
+Explanation: Can be vertical (user to admin) or horizontal (user to another user).
+
+106. What is the main function of Netcat?
+Answer: Read/write data across networks
+Explanation: Netcat is a versatile networking tool used for scanning and reverse shells.
+
+107. What is blue team activity?
+Answer: Defensive cybersecurity work
+Explanation: Blue teams secure and monitor networks, in contrast to offensive red teams.
+
+108. What is token impersonation?
+Answer: Using another user’s security token to impersonate them
+Explanation: Useful in privilege escalation attacks in Windows environments.
+
+109. What is the function of /etc/shadow in Linux?
+Answer: Stores hashed passwords
+Explanation: This file contains encrypted password information for user accounts.
+
+110. What is a TEARDROP attack?
+Answer: Exploit of overlapping IP fragments
+Explanation: Causes buffer overflow by malformed packets.
+
+
+🔐 Advanced CEH MCQ Questions (1–30)
+1. What does the 'ACK' flag in TCP indicate?
+A. Synchronize sequence numbers
+B. Acknowledgement of data received ✅​
+C. Connection termination
+D. Reset connection
+Explanation: The ACK flag acknowledges the receipt of data or a SYN request in TCP communication.
+
+2. Which attack exploits buffer overflows to gain root privileges?
+A. SQL Injection
+B. Heap spraying
+C. Local Privilege Escalation ✅​
+D. DLL Injection
+Explanation: Buffer overflow vulnerabilities are often used in local privilege escalation attacks to execute arbitrary code with higher privileges.
+
+3. What is the primary purpose of shellcode in an exploit?
+A. Scans network devices
+B. Creates malware
+C. Executes post-exploitation tasks ✅​
+D. Bypasses firewalls
+Explanation: Shellcode is a piece of code injected into a vulnerable process to create a shell or run commands.
+
+4. In cryptography, what is key stretching?
+A. Making keys longer
+B. Weakening passwords
+C. Strengthening weak keys by processing them multiple times ✅​
+D. Generating new keys
+Explanation: Key stretching techniques (like bcrypt or PBKDF2) make brute-force attacks more difficult by increasing the time needed to hash passwords.
+
+5. What is an example of a side-channel attack?
+A. Buffer Overflow
+B. Timing attack ✅​
+C. DDoS
+D. Man-in-the-Middle
+Explanation: Side-channel attacks exploit physical implementation (e.g., timing or power consumption) to extract secrets.
+
+6. Which of the following tools is used for DNS enumeration?
+A. Nmap
+B. Wireshark
+C. Fierce ✅​
+D. Hydra
+Explanation: Fierce is a domain scanner used for DNS reconnaissance and subdomain discovery.
+
+7. What is a NULL session in Windows systems?
+A. Authenticated remote desktop
+B. Unauthenticated connection to IPC$ share ✅​
+C. Secure VPN session
+D. Broken SMB communication
+Explanation: NULL sessions are unauthenticated connections that can leak sensitive info from Windows systems.
+
+8. What’s the purpose of the ‘grep’ command in Linux?
+A. Create users
+B. Search for patterns in files ✅​
+C. Schedule tasks
+D. Format partitions
+Explanation: grep is used to filter text based on patterns or expressions.
+
+9. What is ARP spoofing?
+A. Changing IP address
+B. Faking MAC addresses to intercept packets ✅​
+C. DNS poisoning
+D. IP fragmentation
+Explanation: ARP spoofing tricks devices into sending data to the attacker’s MAC address.
+
+10. What kind of encryption is used by WPA2 in wireless networks?
+A. WEP
+B. AES ✅​
+C. MD5
+D. RC4
+Explanation: WPA2 uses AES for robust wireless encryption.
+
+11. Which technique is used to evade IDS detection by spreading an attack over time?
+A. Packet fragmentation
+B. Protocol tunneling
+C. Slowloris attack ✅​
+D. Polymorphism
+Explanation: Slowloris sends partial HTTP requests slowly to exhaust server resources and avoid detection.
+
+12. What does a vulnerability scanner do that a port scanner doesn’t?
+A. Identify open ports
+B. Detect known vulnerabilities in services ✅​
+C. Map network topology
+D. Ping devices
+Explanation: A vulnerability scanner compares service versions with known vulnerabilities.
+
+13. What is the purpose of a reverse shell?
+A. Open a GUI interface
+B. Block outgoing connections
+C. Connects the victim to the attacker ✅​
+D. Reverse packet flow
+Explanation: A reverse shell makes the victim initiate connection to the attacker, bypassing firewalls.
+
+14. Which hash algorithm is considered most secure today?
+A. SHA-1
+B. SHA-256 ✅​
+C. MD5
+D. DES
+Explanation: SHA-256 is widely used in modern cryptographic applications and is secure.
+
+15. What does 'chmod 755 filename' do in Linux?
+A. Gives full access to everyone
+B. Sets read/write/execute for owner, read/execute for others ✅​
+C. Restricts all permissions
+D. Deletes the file
+Explanation: chmod 755 sets full permissions for the owner and limited for group/others.
+
+16. What is the purpose of fuzzing?
+A. Encrypt files
+B. Test input validation by injecting unexpected data ✅​
+C. Analyze logs
+D. Format hard drives
+Explanation: Fuzzing sends invalid or random input to programs to find crashes or vulnerabilities.
+
+17. What is the key difference between symmetric and asymmetric encryption?
+A. One uses hashing
+B. Symmetric uses private key only; asymmetric uses public/private keys ✅​
+C. Symmetric is slower
+D. Asymmetric is used for storage
+Explanation: Asymmetric encryption uses a pair of keys for secure communication.
+
+18. What does Nmap’s -sS flag do?
+A. UDP scan
+B. Stealth (SYN) scan ✅​
+C. Full connect scan
+D. Ping sweep
+Explanation: -sS performs a stealth scan by sending SYN packets only.
+
+19. What is the main goal of reconnaissance in hacking?
+A. Execute payload
+B. Inject SQL
+C. Gather information about the target ✅​
+D. Erase logs
+Explanation: Reconnaissance gathers details like open ports, services, and OS for planning attacks.
+
+What is the MITRE ATT&CK framework?
+A. Pen testing tool
+B. Logging platform
+C. Matrix of adversary techniques and tactics ✅​
+D. Antivirus software
+Explanation: ATT&CK provides knowledge on how adversaries behave post-compromise.
+
+Which of the following is a type of social engineering attack?
+a) SQL injection
+b) Cross-site scripting
+c) Phishing✅​
+d) Buffer overflow
+Answer: c) Phishing
+Explanation: Phishing is a type of social engineering attack that involves tricking people into giving sensitive information such as login credentials or credit card numbers. The attacker might use a fake website or email that appears to be from a legitimate source to trick the victim into revealing their information.
+
+What is the main purpose of a port scanner?
+a) To identify vulnerabilities in software
+b) To encrypt network traffic
+c) To identify open ports on a network✅​
+d) To monitor network traffic
+Answer: c) To identify open ports on a network
+Explanation: A port scanner is a tool that is used to identify open ports on a network. This information can be used by attackers to identify vulnerable systems or services that can be exploited.
+
+23.Which of the following is a type of password attack?
+a) Brute force✅​
+b) Cross-site scripting
+c) SQL injection
+d) Denial of Service
+Answer: a) Brute force
+Explanation: Brute force is a type of password attack that involves trying every possible combination of characters until the correct password is found. This type of attack can be time-consuming but is effective against weak or simple passwords.
+
+24.Which of the following is a way to prevent SQL injection attacks?
+a) Encrypting network traffic
+b) Implementing a firewall
+c) Input validation✅​
+d) Installing antivirus software
+Answer: c) Input validation
+Explanation: Input validation is a technique used to prevent SQL injection attacks by ensuring that user input is validated and sanitized before it is sent to a database. This can prevent malicious code from being injected into a query and executed.
+
+25.Which of the following is a type of denial of service attack?
+a) Smurf attack✅​
+b) SQL injection
+c) Cross-site scripting
+d) Port scanning
+Answer: a) Smurf attack
+Explanation: A Smurf attack is a type of denial of service attack that involves sending a large number of ICMP echo requests (pings) to a network broadcast address. This causes all devices on the network to reply to the requests, overwhelming the network and making it inaccessible to legitimate traffic.
+
+Which of the following is NOT an example of a social engineering technique?
+a) Pretexting
+b) Phishing
+c) Shoulder surfing
+d) SQL injection✅​
+Answer: d) SQL injection
+Explanation: Social engineering refers to the use of psychological manipulation techniques to trick people into divulging sensitive information. Pretexting, phishing, and shoulder surfing are all examples of social engineering techniques. SQL injection, on the other hand, is a type of cyber attack that targets databases.
+
+Which of the following is an example of a passive network reconnaissance technique?
+a) Port scanning
+b) Ping sweep
+c) Banner grabbing
+d) Sniffing✅​
+Answer: d) Sniffing
+Explanation: Passive network reconnaissance techniques involve gathering information about a network without actively sending traffic to it. Sniffing is an example of a passive network reconnaissance technique because it involves capturing and analyzing network traffic without actively sending traffic to the network.
+
+Which of the following is NOT an example of a cryptography algorithm?
+a) AES
+b) RSA
+c) SHA
+d) SQL✅​
+Answer: d) SQL
+Explanation: Cryptography algorithms are used to encrypt and decrypt data. AES, RSA, and SHA are all examples of cryptography algorithms. SQL, on the other hand, is a programming language used to manage and manipulate databases.
+
+Which of the following is a technique used to prevent a buffer overflow attack?
+a) Input validation✅​
+b) Brute force attack
+c) Man-in-the-middle attack
+d) Social engineering attack
+Answer: a) Input validation
+Explanation: A buffer overflow attack occurs when a program tries to store more data in a buffer than it can hold. Input validation is a technique used to prevent buffer overflow attacks by checking that input data is within expected parameters before it is processed.
+
+Which of the following is an example of a black box testing technique?
+a) Fuzz testing✅​
+b) Penetration testing
+c) Vulnerability scanning
+d) Source code review
+Answer: a) Fuzz testing
+Explanation: Black box testing techniques involve testing software without knowledge of its internal workings. Fuzz testing is an example of a black box testing technique because it involves feeding a program with a large amount of random data to see how it responds. Penetration testing, vulnerability scanning, and source code review are all examples of testing techniques that require knowledge of the internal workings of the software being tested.
+
+Which of the following is NOT a common method used for social engineering attacks?
+A) Pretexting
+B) Phishing
+C) Vishing
+D) Port Scanning✅​
+Answer: D) Port Scanning
+Explanation: Social engineering attacks involve manipulating people into divulging sensitive information. Common methods include pretexting, phishing, vishing, and smishing. Port scanning, on the other hand, is a technique used to identify open ports and services on a network.
+
+Which of the following is a common vulnerability assessment tool used to identify weaknesses in a network?
+A) Metasploit
+B) Nikto
+C) Nessus✅​
+D) Wireshark
+Answer: C) Nessus
+Explanation: Nessus is a popular vulnerability scanner that can identify vulnerabilities, misconfigurations, and other security issues in a network. Metasploit is an exploitation framework, Nikto is a web server scanner, Snort is an intrusion detection system, and Wireshark is a network protocol analyzer.
+
+What type of attack is designed to exhaust a network's resources and deny access to legitimate users?
+A) Smurf attack✅​
+B) SQL injection
+C) Cross-site scripting
+D) Social engineering
+Answer: A) Smurf attack
+Explanation: A smurf attack is a type of DoS (denial of service) attack where an attacker sends ICMP (Internet Control Message Protocol) packets with a spoofed source IP address to a network's broadcast address. The hosts in the network will then respond to the spoofed IP address, flooding the target network with traffic and denying access to legitimate users. SQL injection, cross-site scripting, social engineering, and man-in-the-middle attacks are different types of attacks.
+
+Which of the following is NOT a common encryption algorithm used to protect data?
+A) AES
+B) RSA
+C) SHA-1✅​
+D) Blowfish
+Answer: C) SHA-1
+Explanation: AES (Advanced Encryption Standard), RSA (Rivest-Shamir-Adleman), Blowfish, and MD5 (Message Digest 5) are all common encryption algorithms used to protect data. SHA-1 (Secure Hash Algorithm 1) is a cryptographic hash function used to generate a fixed-size output from a variable-size input.
+
+Which of the following is a method used to hide a message or file inside another message or file?
+A) Steganography✅​
+B) Cryptography
+C) Hashing
+D) Brute-force attack
+Answer: A) Steganography
+Explanation: Steganography is the practice of concealing a message or file within another message or file. Cryptography involves converting a message or data into a code to prevent unauthorized access. Hashing involves converting data of any size into a fixed-size output. Brute-force and dictionary attacks are methods used to crack passwords or encryption keys.
+
+Which of the following is NOT a type of social engineering attack?
+a) Phishing
+b) Shoulder surfing
+c) Bluejacking✅​
+d) Spoofing
+Answer: c) Bluejacking
+Explanation: Bluejacking is a form of wireless hacking that involves sending unsolicited messages to Bluetooth-enabled devices. It is not a type of social engineering attack.
+
+Which of the following is a common technique used by attackers to exploit buffer overflow vulnerabilities?
+a) Cross-site scripting
+b) SQL injection
+c) DNS spoofing
+d) Shellcode injection✅​
+Answer: d) Shellcode injection
+Explanation: Shellcode injection is a technique used by attackers to exploit buffer overflow vulnerabilities by injecting malicious code into a program's memory space and then executing that code.
+
+Which of the following is NOT a step in the vulnerability assessment process?
+a) Scanning
+b) Enumeration
+c) Fuzzing
+d) Exploitation✅​
+Answer: d) Exploitation
+Explanation: Exploitation is not a step in the vulnerability assessment process. The vulnerability assessment process typically involves scanning, enumeration, and fuzzing.
+
+Which of the following is a technique used by attackers to gain access to a system by exploiting a weakness in the system's authentication mechanism?
+a) Password spraying✅​
+b) Port scanning
+c) Ping of Death
+d) DNS rebinding
+Answer: a) Password spraying
+Explanation: Password spraying is a technique used by attackers to gain access to a system by trying a small number of commonly used passwords against many user accounts. This technique can be effective against weak passwords or when the attacker has knowledge of the target's password policy.
+
+Which of the following is a technique used by attackers to hide their tracks by erasing evidence of their activities from log files?
+a) SQL injection
+b) Privilege escalation
+c) Fileless malware
+d) Log tampering✅​
+Answer: d) Log tampering
+Explanation: Log tampering is a technique used by attackers to hide their tracks by erasing evidence of their activities from log files. This can make it more difficult for defenders to detect and respond to the attack.
+
+Which of the following is a passive reconnaissance technique used in ethical hacking?
+a) Port Scanning
+b) Social Engineering
+c) Sniffing✅​
+d) SQL Injection
+Answer: c) Sniffing
+Explanation: Passive reconnaissance techniques involve collecting information without actively engaging with the target system. Sniffing is a technique where an attacker captures and analyzes network traffic to gather information about the target system. Port Scanning, Social Engineering, and SQL Injection are all active reconnaissance techniques.
+
+Which of the following is a technique used to hide data in plain sight?
+a) Steganography✅​
+b) Cryptography
+c) Brute-Force Attack
+d) SQL Injection
+Answer: a) Steganography
+Explanation: Steganography is the technique of hiding data within another file or message in a way that is not easily detected. Cryptography is the technique of secure communication that involves converting plain text into a code that only authorized parties can read. Brute-Force Attack is a method of cracking a password by trying all possible combinations. SQL Injection is a technique used to exploit web applications by injecting SQL code into input fields.
+
+Which of the following is a vulnerability scanning tool?
+a) Metasploit
+b) Nmap✅​
+c) Wireshark
+d) Cain & Abel
+Answer: b) Nmap
+Explanation: Nmap (Network Mapper) is a popular vulnerability scanning tool used to identify hosts and services on a network. Metasploit is an exploit framework that helps in penetration testing and finding vulnerabilities. Wireshark is a network protocol analyzer used to capture and analyze network traffic. Cain & Abel is a password cracking tool.
+
+Which of the following is a technique used to prevent unauthorized access to a network
+a) Encryption
+b) Firewall✅​
+c) DMZ
+d) VLAN
+Answer: b) Firewall
+Explanation: A firewall is a network security device that monitors and controls incoming and outgoing network traffic based on predefined security rules. Encryption is the process of converting plain text into a code that only authorized parties can read. DMZ (Demilitarized Zone) is a network segment that separates the public-facing servers from the internal network. VLAN (Virtual Local Area Network) is a logical grouping of devices within a network that communicate as if they are on the same physical network.
+
+Which of the following is a web application vulnerability?
+a) Cross-site scripting (XSS)✅​
+b) DNS spoofing
+c) SYN flood
+d) Ping of Death
+Answer: a) Cross-site scripting (XSS)
+Explanation: Cross-site scripting (XSS) is a vulnerability in web applications where an attacker can inject malicious code into a web page viewed by other users. DNS spoofing is a technique used to redirect network traffic to a malicious website by falsifying DNS records. SYN flood is a type of Denial-of-Service (DoS) attack where an attacker sends a flood of SYN packets to overwhelm a server. Ping of Death is a type of DoS attack where an attacker sends an oversized packet to crash a target system.
+
+Which of the following is NOT an example of social engineering?
+a) Phishing
+b) Shoulder surfing
+c) Denial of Service✅​
+d) Tailgating
+Answer: c) Denial of Service
+Explanation: Social engineering refers to the psychological manipulation of individuals to gain access to confidential information. Phishing, shoulder surfing, and tailgating are all examples of social engineering techniques. Denial of Service is a type of attack that overwhelms a system or network with traffic, preventing legitimate users from accessing it.
+
+Which of the following is a technique used to detect network vulnerabilities by analyzing network traffic?
+a) Penetration testing
+b) Vulnerability scanning
+c) Packet sniffing✅​
+d) Hash cracking
+Answer: c) Packet sniffing
+Explanation: Packet sniffing is a technique used to capture and analyze network traffic to detect vulnerabilities in the network. Penetration testing involves simulating an attack on a system to identify weaknesses, while vulnerability scanning involves using software tools to scan a system for known vulnerabilities. Hash cracking involves attempting to recover passwords from hashed values.
+
+Which of the following is NOT an example of a password attack?
+a) Brute force
+b) Dictionary
+c) SQL injection✅​
+d) Rainbow table
+Answer: c) SQL injection
+Explanation: Password attacks refer to techniques used to crack passwords to gain unauthorized access to a system. Brute force involves trying every possible combination of characters to guess the password, while dictionary attacks use a list of common words and phrases to guess the password. Rainbow tables are precomputed tables of hashes used to crack passwords quickly. SQL injection is a type of attack that exploits vulnerabilities in web applications to gain access to databases.
+
+Which of the following is NOT an example of a wireless network attack?
+a) Rogue access point
+b) Evil twin
+c) Packet sniffing
+d) SQL injection✅​
+Answer: d) SQL injection
+Explanation: Wireless network attacks refer to techniques used to exploit vulnerabilities in wireless networks to gain unauthorized access. Rogue access points and evil twins are examples of attacks that involve setting up a fake wireless access point to trick users into connecting to it. Packet sniffing is a technique used to capture and analyze network traffic. SQL injection is not a wireless network attack but rather a web application attack.
+
+Which of the following is a type of malware that is designed to spread rapidly across a network?
+a) Adware
+b) Spyware
+c) Trojan
+d) Worm✅​
+Answer: d) Worm
+Explanation: A worm is a type of malware that is designed to spread rapidly across a network by exploiting vulnerabilities in the network or by tricking users into running malicious code. Adware is malware that displays unwanted advertisements, while spyware is malware that collects user data without their knowledge or consent. Trojans are malware that masquerades as legitimate software to trick users into installing and running them.
+
+
+🔐 CEH MCQs:Question
+
+11. Which type of hacker is legally employed to find vulnerabilities?
+A. Black Hat
+B. White Hat ✅​
+C. Grey Hat
+D. Red Hat
+Explanation: White hat hackers are ethical hackers authorized to test and secure systems.
+
+12. What is the function of a vulnerability scanner?
+A. Encrypt data
+B. Discover system flaws ✅​
+C. Generate passwords
+D. Monitor users
+Explanation: A vulnerability scanner identifies known security weaknesses in systems and networks.
+
+13. What is the first phase of hacking in the CEH methodology?
+A. Gaining Access
+B. Scanning
+C. Reconnaissance ✅​
+D. Clearing Tracks
+Explanation: Reconnaissance is the initial stage where attackers gather information about targets.
+
+14. Which tool is used for password cracking?
+A. Wireshark
+B. John the Ripper ✅​
+C. Nmap
+D. Nikto
+Explanation: John the Ripper is a password-cracking tool.
+
+15. What is social engineering?
+A. Hardware hacking
+B. Manipulating people to give confidential info ✅​
+C. Bypassing firewalls
+D. Reverse engineering
+Explanation: Social engineering exploits human psychology to breach systems.
+
+16. What does a rootkit do?
+A. Encrypt files
+B. Provide remote desktop
+C. Hide malware processes ✅​
+D. Log keystrokes
+Explanation: Rootkits conceal the presence of malicious software on a system.
+
+17. Which attack floods a network with traffic to exhaust resources?
+A. Man-in-the-middle
+B. DDoS ✅​
+C. SQL Injection
+D. XSS
+Explanation: DDoS attacks overwhelm systems, denying service to legitimate users.
+
+18. What is the full form of SQL?
+A. Secure Query Language
+B. Structured Query Language ✅​
+C. Static Query Language
+D. Scripted Query Language
+Explanation: SQL is used to manage and retrieve data in databases.
+
+19. Which of these is a type of malware that locks data for ransom?
+A. Adware
+B. Spyware
+C. Ransomware ✅​
+D. Keylogger
+Explanation: Ransomware encrypts data and demands payment for access.
+
+20. Which command is used in Linux to list directory contents?
+A. list
+B. dir
+C. cd
+D. ls ✅​
+Explanation: ls lists files and directories in Linux.
+
+21. What is the main use of Metasploit?
+A. Log analysis
+B. Vulnerability scanning
+C. Exploit development ✅​
+D. Firewall configuration
+Explanation: Metasploit is a penetration testing framework for developing and executing exploits.
+
+22. Which layer of the OSI model does the IP protocol operate on?
+A. Data Link
+B. Network ✅​
+C. Transport
+D. Application
+Explanation: IP operates at the Network layer (Layer 3).
+
+23. What does hashing ensure?
+A. Confidentiality
+B. Integrity ✅​
+C. Authentication
+D. Availability
+Explanation: Hashing verifies data integrity, ensuring it hasn’t been altered.
+
+24. What is the most secure form of multifactor authentication?
+A. Password + Email
+B. Password + OTP
+C. Password + Biometric ✅​
+D. Password + Security Question
+Explanation: Biometric adds a strong, unique second factor.
+
+25. What is a botnet?
+A. Anti-virus software
+B. Collection of infected devices controlled remotely ✅​
+C. Encrypted backup system
+D. Secure firewall
+Explanation: A botnet is a group of compromised devices controlled for malicious purposes.
+
+26. What does the ping command test?
+A. Network sniffing
+B. DNS resolution
+C. Port scanning
+D. Connectivity ✅​
+Explanation: ping checks if a host is reachable on the network.
+
+27. Which type of attack targets web servers using forged HTTP requests?
+A. SQL Injection
+B. DoS
+C. Cross-Site Request Forgery (CSRF) ✅​
+D. XSS
+Explanation: CSRF tricks a user into performing actions unknowingly.
+
+28. What is a honeypot?
+A. Password cracker
+B. Fake system to lure attackers ✅​
+C. Log monitor
+D. Email scanner
+Explanation: A honeypot is a decoy system to trap attackers.
+
+29. What protocol is commonly used for secure email?
+A. HTTP
+B. POP3
+C. IMAP
+D. SMTPS ✅​
+Explanation: SMTPS is SMTP over SSL for secure email transmission.
+
+30. What is spoofing?
+A. Copying data
+B. Pretending to be someone else ✅​
+C. Monitoring traffic
+D. Cracking passwords
+Explanation: Spoofing involves falsifying identity or data.
+
+31. Which of the following is NOT a hashing algorithm?
+A. MD5
+B. SHA-1
+C. RSA ✅​
+D. SHA-256
+Explanation: RSA is an encryption algorithm, not a hash function.
+
+32. What is the role of a proxy server?
+A. Encrypt data
+B. Act as a gateway between users and the internet ✅​
+C. Detect malware
+D. Increase bandwidth
+Explanation: A proxy acts as an intermediary, adding privacy and filtering.
+
+33. What is the default port for SSH?
+A. 21
+B. 22 ✅​
+C. 23
+D. 443
+Explanation: SSH runs on port 22.
+
+34. What does DNS stand for?
+A. Direct Name System
+B. Domain Naming Software
+C. Domain Name System ✅​
+D. Data Network Service
+Explanation: DNS translates domain names into IP addresses.
+
+35. What is steganography?
+A. Encrypted file transfer
+B. Hiding data within another file ✅​
+C. File corruption
+D. Compression
+Explanation: Steganography conceals data inside images or media.
+
+36. What type of scan involves sending packets without completing TCP handshake?
+A. Full Connect Scan
+B. Stealth Scan ✅​
+C. SYN Flood
+D. ACK Scan
+Explanation: Stealth scans (SYN scans) do not complete TCP handshakes.
+
+37. What is the purpose of a digital certificate?
+A. Block unauthorized access
+B. Verify identity and bind it to a public key ✅​
+C. Encrypt traffic
+D. Generate random passwords
+Explanation: Digital certificates authenticate identities using public keys.
+
+38. What is the common use of Burp Suite?
+A. Network sniffing
+B. Web application security testing ✅​
+C. System hardening
+D. File scanning
+Explanation: Burp Suite is used to find web app vulnerabilities like XSS, SQLi.
+
+39. What is an APT (Advanced Persistent Threat)?
+A. Quick attack
+B. Annoying virus
+C. Long-term targeted attack ✅​
+D. Mobile malware
+Explanation: APTs are sustained, stealthy attacks targeting specific organizations.
+
+40. Which type of malware logs every keystroke made by a user?
+A. Worm
+B. Keylogger ✅​
+C. Trojan
+D. Rootkit
+Explanation: Keyloggers capture all keystrokes to steal credentials or sensitive data.
+
+41. What is the goal of penetration testing?
+A. Break into systems permanently
+B. Steal data
+C. Evaluate system security ✅​
+D. Monitor traffic
+Explanation: Pen testing simulates real-world attacks to assess system vulnerabilities.
+
+42. What is the term for encoding information to prevent unauthorized access?
+A. Hashing
+B. Spoofing
+C. Encryption ✅​
+D. Steganography
+Explanation: Encryption secures data by converting it into unreadable form without a key.
+
+43. Which attack exploits human psychology the most?
+A. Brute force
+B. Phishing ✅​
+C. Buffer overflow
+D. Port scanningu
+Explanation: Phishing manipulates users into revealing confidential information.
+
+44. What is the output of a hashing function?
+A. Encrypted text
+B. Random string
+C. Fixed-length digest ✅​
+D. Plaintext
+Explanation: Hashing produces a fixed-length output (hash digest) from any input.
+
+45. What does XSS stand for?
+A. XML Site Scanner
+B. Cross-Site Scripting ✅​
+C. eXtra Secure Script
+D. Xtreme Secure Syntax
+Explanation: XSS allows attackers to inject malicious scripts into web pages.
+
+46. What is the best defense against brute force attacks?
+A. Longer passwords
+B. CAPTCHA
+C. Account lockouts
+D. All of the above ✅​
+Explanation: A combination of length, lockouts, and CAPTCHAs prevent brute force.
+
+47. What is MAC spoofing?
+A. Changing device’s IP
+B. Changing hardware address ✅​
+C. Encrypting MAC address
+D. Blocking MAC address
+Explanation: MAC spoofing alters a device’s MAC address to bypass filters.
+
+48. Which file in Linux stores user password hashes?
+A. /etc/passwd
+B. /etc/shadow ✅​
+C. /etc/login
+D. /var/log/auth
+Explanation: /etc/shadow contains encrypted user passwords in Linux.
+
+49. What is an air gap in cybersecurity?
+A. Open network
+B. Network in the cloud
+C. Isolated network ✅​
+D. Wired network
+Explanation: Air-gapped systems are physically isolated from unsecured networks.
+
+50. Which attack involves sending fraudulent emails to multiple people?
+A. Spear Phishing
+B. Phishing ✅​
+C. Whaling
+D. Baiting
+Explanation: Phishing is broad-spectrum; spear phishing is targeted.
